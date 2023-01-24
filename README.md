@@ -20,9 +20,9 @@ The dataset used in this paper is archived at [Zenodo](https://zenodo.org/record
 2. Split the data into training and test sets: `trainTestSplit.m`
 
 ### Train KSVD, generate the reconstruction error/difference images, and extract features
-1. Split the data into 3 categories: 'formattingData.m'
-2. Train KSVD with a user defined dictionary size and generate the reconstruction error/difference images and their features: 'preprocessData.m'
-3. Generate the reconstruction error/difference images for testing: 'generateTestingRecon.m'
+1. Split the data into 3 categories: `formattingData.m`
+2. Train KSVD with a user defined dictionary size and generate the reconstruction error/difference images and their features: `preprocessData.m`
+3. Generate the reconstruction error/difference images for testing: `generateTestingRecon.m`
 
 
 ### Train and test the classifiers using the modified data, labels, and features. 

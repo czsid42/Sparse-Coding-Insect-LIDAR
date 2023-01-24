@@ -26,7 +26,8 @@ The dataset used in this paper is archived at [Zenodo](https://zenodo.org/record
 
 
 ### Train and test the classifiers using the modified data, labels, and features. 
-You will need to replace the trainingData, trainingFeatures, and trainingLabels with the modified data in each file
+This work expands upon the previous work found at: https://github.com/BMW-lab-MSU/insect-lidar-supervised-classification
+You will need to replace the trainingData, trainingFeatures, and trainingLabels with the modified data in each file.
 1. Tune the under- and oversampling ratios: `tuneSampling{AdaBoost, RUSBoost, Net}.m`
 2. The the model hyperparameters: `tuneHyperparams{AdaBoost, RUSBoost, Net}.m`
 3. Train the final models: `train{AdaBoost, RUSBoost, Net}.m`

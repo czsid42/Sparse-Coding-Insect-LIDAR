@@ -4,7 +4,7 @@ clear figures;
 rng(0, 'twister');
 
 
- datadir = 'D:\Users\Conno Z From The 303\Downloads\__THESIS&RESEARCHHDD\__insect-lidar-supervised-classification-main\data\insect-lidar\MLSP-2021';
+ datadir = '..\data\insect-lidar\MLSP-2021';
 
 if isempty(gcp('nocreate'))
     parpool();

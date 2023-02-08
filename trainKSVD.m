@@ -5,8 +5,8 @@ function [Dtrain, err] = trainKSVD(data, numSparse, numAtoms, numIter,memUsage)
 
 %After correctly building the KSVD and OMP functions you must add them to
 %path
-addpath 'C:\Users\Conno Z From The 303\Downloads\Thesis&Research\ksvdbox13'
-addpath 'C:\Users\Conno Z From The 303\Downloads\Thesis&Research\ompbox10'
+addpath '..\ksvdbox13'
+addpath '..\ompbox10'
 
     %numAtoms specifies how many atoms the dictionary is going to use
     D = odct2dict([sqrt(size(data,1)) sqrt(size(data,1))], [numAtoms 1]); %Dictionary of size X x User Defined

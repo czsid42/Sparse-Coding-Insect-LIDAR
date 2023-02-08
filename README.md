@@ -16,6 +16,7 @@ The dataset used in this paper is archived at [Zenodo](https://zenodo.org/record
 3. Download KSVD-Box v13 and follow the instructions for install
 
 ### Create training and testing data
+The data is split using files from [this repository.](https://github.com/BMW-lab-MSU/insect-lidar-supervised-classification)
 1. Combine the individual data and label files into a more usable format: `combineScans.m`
 2. Split the data into training and test sets: `trainTestSplit.m`
 
